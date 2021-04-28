@@ -3,7 +3,7 @@ const router = express.Router()
 const bodyParser = require('body-parser')
 router.use(bodyParser.urlencoded({ extended: true }))
 const session = require('express-session');
-const funs = require('./funs');
+const funs = require('./mongok');
 
 
 
