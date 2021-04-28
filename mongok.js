@@ -52,6 +52,25 @@ const mongok_updateOne = (your_db,coll,name,mode) =>
           });
     });
 }
+
+const mongok_updateOne = (your_db,coll,query) =>
+{
+    return new Promise((resolve, reject) => {
+       
+        MongoClient.connect(url,{ useNewUrlParser: true }, function(err, db) {
+            if (err) throw err;
+            var dbo = db.db(your_db);
+            
+            dbo.collection(coll).deleteOne(query, function(err, result) {
+              if (err) throw err;
+              if(result){
+                  resolve(result)
+              }
+              db.close()
+            });
+          });
+    });
+}
 module.exports = 
 {
   mongok_findOne,
