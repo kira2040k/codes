@@ -1,0 +1,6 @@
+/backup.zip
+/admin/
+/robots.txt
+/backup
+.htaccess
+/config
