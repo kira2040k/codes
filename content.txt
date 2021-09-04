@@ -4,3 +4,5 @@
 /backup
 .htaccess
 /config
+/debug
+/include/
