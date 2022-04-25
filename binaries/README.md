@@ -1,1 +1,3 @@
 binaries....
+
+password for zip files: infected
