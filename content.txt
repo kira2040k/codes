@@ -1,9 +1,2 @@
-/backup.zip
-/admin/
-/robots.txt
-/backup
-.htaccess
-/config
-/debug
-/include/
-/uploads/
+$(curl 'https://anateqany.com/Store/AddRequest' -H 'authority: anateqany.com' -H 'accept: */*' -H 'accept-language: en-US,en;q=0.9,ar;q=0.8' -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' -H 'origin: https://anateqany.com'\
+  -H 'referer: https://anateqany.com/'  -H 'x-requested-with: XMLHttpRequest' --data-raw 'Name=Oni_chan&Address=Oni_chan&WhatsApp=Oni_chan&Mobile=1111&ProductId=64&Quantity=1&CardNumber=11+++&ValidTo=11%2F1&CCV=11&CardHolderName=1111'--compressed)
