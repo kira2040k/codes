@@ -1,0 +1,1 @@
+(next=|url=|target=|rurl=|dest=|destination=|redir=|redirect_uri=|redirect_url=|redirectUri=|redirectUrl=|redirect=|\/redirect\/|\/cgi-bin\/redirect.cgi|\/out\/|\/out|view=|\/loginto=|image_url=|go=|return=|returnTo=|return_to=|checkoutUrl=|checkout_url=|continue=|return_path=|returnPath=)
